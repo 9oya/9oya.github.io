@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+categories: [iOS, Swift]
+tags: [iOS, Swift, Life cycle]
 ---
 
 # Welcome
