@@ -1,25 +1,27 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HomeHeader from './components/home/HomeHeader.vue'
+import HomeBody from './components/home/HomeBody.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HomeHeader msg="eido9oya.com" />
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <HomeBody />
   </main>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
+}
+
+main {
+  padding: 2.0rem;
 }
 
 .logo {
@@ -32,10 +34,6 @@ header {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
   }
 
   header .wrapper {
